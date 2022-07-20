@@ -1,0 +1,33 @@
+.servicios {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 120px 0 20px;
+}
+
+
+.producto {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    img {
+        @include imagenes(400px, 400px, 15%);
+        padding: 15px;
+        object-fit: cover;
+    }
+
+}
+
+.textos_productos {
+    text-align: justify;
+    padding: 20px;
+    font-weight: 300;
+    font-family: $fuenteSecundaria;
+
+       p{
+      padding-bottom: 20px;
+    
+      font-size: 18px; 
+    }
+
+}
