@@ -1,0 +1,23 @@
+{
+  "name": "06-aplicando-sass",
+  "version": "1.0.0",
+  "description": "Hola Soy Hernan Paulsen, aspirante a diseñador web, este archivo readme es solo una prueba para practicar el pull",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpauld/2da-preentrega-hpaulsen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hpauld/2da-preentrega-hpaulsen/issues"
+  },
+  "homepage": "https://github.com/hpauld/2da-preentrega-hpaulsen#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

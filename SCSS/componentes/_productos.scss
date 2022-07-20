@@ -1,0 +1,40 @@
+/* Inicio estilos pagina productos */
+
+.productos {
+    padding: 120px 0;
+    margin: 0 auto;
+
+}
+
+.parrafo_producto {
+    text-align: center;
+}
+
+.cabecera_productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.cabecera_productos p {
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.cabecera_productos img {
+    max-width: 500px;
+    width: 350px;
+    height: 350px;
+    border-radius: 15%;
+    padding: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.cabecera_productos img:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
