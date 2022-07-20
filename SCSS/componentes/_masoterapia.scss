@@ -5,12 +5,14 @@
 }
 
 
-.producto {
+.producto_masoterapia {
+    width: 100%;
     margin: 0 auto;
-    display: flex;
+ 
     align-items: center;
 
     img {
+        float: left;
         @include imagenes(400px, 400px, 15%);
         padding: 15px;
         object-fit: cover;
@@ -18,19 +20,19 @@
 
 }
 
-.textos_productos {
+.textos_masoterapia {
     text-align: justify;
     padding: 20px;
     font-weight: 300;
     font-family: $fuenteSecundaria;
 
-       p{
-      padding-bottom: 20px;
-    
-      font-size: 18px; 
+    p {
+        padding-bottom: 20px;
+
+        font-size: 18px;
     }
 
-    span{
+    span {
         font-weight: 900;
     }
 

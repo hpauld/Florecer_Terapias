@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Taviraj:wght@400;600;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -126,6 +127,8 @@ footer {
 .text_central {
   text-align: center;
   padding-top: 40px;
+  font-size: 35px;
+  font-weight: 300;
 }
 
 .text_central h2 {
@@ -226,43 +229,58 @@ button {
   cursor: pointer;
 }
 
-/* Inicio estilos pagina nosotros */
 .nosotros {
+  width: 90%;
+  margin: 0 auto;
   background-color: #fff6f5;
-  display: grid;
   align-items: center;
-  grid-template-columns: repeat(2, 1fr);
   padding-top: 110px;
+  padding-bottom: 50px;
 }
 
 .img_nosotros {
-  margin: 0 auto;
+  float: left;
+  padding-right: 50px;
 }
 .img_nosotros img {
   border-radius: 25%;
-  max-width: 500px;
+  max-width: 300px;
   width: 100%;
   height: auto;
 }
 
 .texto_nosotros {
-  padding: 45px 0;
   text-align: justify;
   line-height: 25px;
-  margin: 0 50px;
-  font-family: "Edu SA Beginner", cursive;
+  font-family: "Taviraj", serif;
   font-size: 18px;
 }
-.texto_nosotros h2 {
-  font-weight: 400;
+.texto_nosotros p {
+  width: 90%;
+}
+.texto_nosotros h3 {
+  font-weight: lighter;
   padding-top: 10px;
+}
+.texto_nosotros ul {
+  width: 90%;
+  padding-bottom: 10px;
 }
 .texto_nosotros li {
   margin-left: 30px;
+  padding-right: 20px;
+}
+.texto_nosotros span {
+  font-weight: bolder;
+}
+
+.nosotros_cta {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .servicios {
-  width: 100vw;
+  width: 90vw;
   margin: 0 auto;
   padding: 120px 0 20px;
 }
@@ -284,11 +302,48 @@ button {
   text-align: justify;
   padding: 20px;
   font-weight: 300;
-  font-family: "Edu SA Beginner", cursive;
+  font-family: "Taviraj", serif;
 }
 .textos_productos p {
   padding-bottom: 20px;
   font-size: 18px;
+}
+.textos_productos span {
+  font-weight: 900;
+}
+
+.servicios {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 120px 0 20px;
+}
+
+.producto_masoterapia {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+.producto_masoterapia img {
+  float: left;
+  width: 400px;
+  height: 400px;
+  border-radius: 15%;
+  padding: 15px;
+  object-fit: cover;
+}
+
+.textos_masoterapia {
+  text-align: justify;
+  padding: 20px;
+  font-weight: 300;
+  font-family: "Taviraj", serif;
+}
+.textos_masoterapia p {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.textos_masoterapia span {
+  font-weight: 900;
 }
 
 /* Inicio estilos pagina productos */
@@ -493,6 +548,9 @@ nav .menu_items li a:hover {
   }
   .contacto .mapa_contacto iframe {
     width: 100%;
+  }
+  .seccion3 p {
+    font-size: 20px;
   }
 }
 
