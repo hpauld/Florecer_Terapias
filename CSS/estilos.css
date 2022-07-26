@@ -257,10 +257,11 @@ button {
 }
 .texto_nosotros p {
   width: 90%;
+  padding-bottom: 20px;
 }
 .texto_nosotros h3 {
   font-weight: lighter;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 .texto_nosotros ul {
   width: 90%;
