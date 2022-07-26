@@ -131,34 +131,31 @@
         font-weight: 700;
         letter-spacing: 15px;
     }
-.nosotros{
-    width: 90%;
-    margin: 0 auto;
-}
+
+    .nosotros {
+        width: 90%;
+
+    }
+
     .img_nosotros {
-        width: 300px;
+
         float: none;
         padding: 0;
 
+        img {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
 
+    .texto_nosotros p {
+        width: 100%;
+        padding-top: 25px;
+        
     }
 
     .servicios {
-        padding-top: 80px;
-    }
-
-    .producto {
-        flex-direction: column;
-        width: auto;
-    }
-.texto_nosotros{
-    margin: 0 auto;
-}
-    .textos_productos p {
-        width: auto;
-    }
-
-    .productos {
         padding-top: 80px;
     }
 
@@ -182,8 +179,9 @@
         }
 
     }
-    .seccion3{
-        p{
+
+    .seccion3 {
+        p {
             font-size: 20px;
         }
     }

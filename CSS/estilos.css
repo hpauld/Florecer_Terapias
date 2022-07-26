@@ -521,27 +521,21 @@ nav .menu_items li a:hover {
   }
   .nosotros {
     width: 90%;
-    margin: 0 auto;
   }
   .img_nosotros {
-    width: 300px;
     float: none;
     padding: 0;
   }
-  .servicios {
-    padding-top: 80px;
-  }
-  .producto {
-    flex-direction: column;
-    width: auto;
-  }
-  .texto_nosotros {
+  .img_nosotros img {
+    display: block;
+    width: 100%;
     margin: 0 auto;
   }
-  .textos_productos p {
-    width: auto;
+  .texto_nosotros p {
+    width: 100%;
+    padding-top: 25px;
   }
-  .productos {
+  .servicios {
     padding-top: 80px;
   }
   .contacto {
