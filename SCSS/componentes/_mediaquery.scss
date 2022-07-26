@@ -131,9 +131,16 @@
         font-weight: 700;
         letter-spacing: 15px;
     }
-
+.nosotros{
+    width: 90%;
+    margin: 0 auto;
+}
     .img_nosotros {
         width: 300px;
+        float: none;
+        padding: 0;
+
+
     }
 
     .servicios {
@@ -144,7 +151,9 @@
         flex-direction: column;
         width: auto;
     }
-
+.texto_nosotros{
+    margin: 0 auto;
+}
     .textos_productos p {
         width: auto;
     }
