@@ -2,6 +2,13 @@
     width: 90vw;
     margin: 0 auto;
     padding: 120px 0 20px;
+    color: #898d8e;
+
+    .textos_masoterapia {
+        p {
+            font-size: 16px;
+        }
+    }
 }
 
 
@@ -24,13 +31,13 @@
     font-weight: 300;
     font-family: $fuenteSecundaria;
 
-       p{
-      padding-bottom: 20px;
-    
-      font-size: 18px; 
+    p {
+        padding-bottom: 20px;
+
+        font-size: 18px;
     }
 
-    span{
+    span {
         font-weight: 900;
     }
 

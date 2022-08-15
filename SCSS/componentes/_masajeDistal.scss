@@ -1,0 +1,21 @@
+.servicios {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 120px 0 20px;
+    color: #898d8e;
+
+    .producto_masoterapia {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+.textos_distal {
+    font-family: $fuenteSecundaria;
+
+    p {
+        font-size: 16px;
+    }
+}
