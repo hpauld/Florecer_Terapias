@@ -20,11 +20,20 @@
 
     .nosotros {
         grid-template-columns: repeat(1, 1fr);
+
+        .texto_nosotros {
+            width: 100%;
+          
+        }
+
+        .img_nosotros {
+            margin: 0 auto;
+            padding: 20px 0;
+            
+        }
     }
 
-    .img_nosotros {
-        margin: 0 auto;
-    }
+
 
     .mapa_contacto {
         padding: 10px;
@@ -130,7 +139,7 @@
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 15px;
-    }   
+    }
 
     .servicios {
         padding-top: 80px;
@@ -163,19 +172,28 @@
         }
     }
 
-.nosotros{
-    width: 90%;
-    margin: 0 auto;
-   
-    .img_nosotros{
-        padding: 0;
-    }
-    .texto_nosotros{
-        width: 100%;
-        padding-top: 20px;
-    }
+    .nosotros {
+        width: 90%;
+        margin: 0 auto;
+
+        .img_nosotros {
+            padding: 0;
+            margin: 0 auto;
+
+            img {
+                width: 90%;
+                margin: 0 auto;
+                display: flex;
+            }
+
+        }
+
+        .texto_nosotros {
+            width: 100%;
+            padding-top: 20px;
+        }
 
 
-}
+    }
 
 }

@@ -440,8 +440,12 @@ button {
   .nosotros {
     grid-template-columns: repeat(1, 1fr);
   }
-  .img_nosotros {
+  .nosotros .texto_nosotros {
+    width: 100%;
+  }
+  .nosotros .img_nosotros {
     margin: 0 auto;
+    padding: 20px 0;
   }
   .mapa_contacto {
     padding: 10px;
@@ -554,6 +558,12 @@ nav .menu_items li a:hover {
   }
   .nosotros .img_nosotros {
     padding: 0;
+    margin: 0 auto;
+  }
+  .nosotros .img_nosotros img {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
   }
   .nosotros .texto_nosotros {
     width: 100%;
