@@ -527,22 +527,6 @@ nav .menu_items li a:hover {
     font-weight: 700;
     letter-spacing: 15px;
   }
-  .nosotros {
-    width: 90%;
-  }
-  .img_nosotros {
-    float: none;
-    padding: 0;
-  }
-  .img_nosotros img {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-  }
-  .texto_nosotros p {
-    width: 100%;
-    padding-top: 25px;
-  }
   .servicios {
     padding-top: 80px;
   }
@@ -563,6 +547,17 @@ nav .menu_items li a:hover {
   }
   .seccion3 p {
     font-size: 20px;
+  }
+  .nosotros {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .nosotros .img_nosotros {
+    padding: 0;
+  }
+  .nosotros .texto_nosotros {
+    width: 100%;
+    padding-top: 20px;
   }
 }
 
