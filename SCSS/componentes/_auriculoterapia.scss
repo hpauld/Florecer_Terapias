@@ -4,7 +4,7 @@
     padding: 120px 0 20px;
     color: #898d8e;
 
-    .textos_masoterapia {
+    .textos_auricuoterapia {
         p {
             font-size: 16px;
         }
@@ -12,7 +12,7 @@
 }
 
 
-.producto {
+.auriculoterapia{
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -25,20 +25,18 @@
 
 }
 
-.textos_productos {
+.textos_auriculoterapia {
     text-align: justify;
     padding: 20px;
     font-weight: 300;
+    line-height: 20px;
     font-family: $fuenteSecundaria;
 
     p {
         padding-bottom: 20px;
-
         font-size: 18px;
     }
 
-    span {
-        font-weight: 900;
-    }
+    
 
 }

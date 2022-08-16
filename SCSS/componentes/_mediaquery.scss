@@ -23,17 +23,15 @@
 
         .texto_nosotros {
             width: 100%;
-          
+
         }
 
         .img_nosotros {
             margin: 0 auto;
             padding: 20px 0;
-            
+
         }
     }
-
-
 
     .mapa_contacto {
         padding: 10px;
@@ -56,6 +54,10 @@
 
     .producto {
         width: 100%;
+    }
+
+    .auriculoterapia {
+        flex-direction: column;
     }
 }
 
@@ -196,4 +198,74 @@
 
     }
 
+    .auriculoterapia {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+
+
+        img {
+            border-radius: 20%;
+            padding: 20px 0;
+        }
+    }
+
+    .nosotros_cta {
+        justify-content: center;
+
+        button {
+            letter-spacing: 5px;
+            width: 200px;
+            height: 60px;
+        }
+    }
+
+    .masoterapia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+
+        img {
+            max-width: 300px;
+            border-radius: 20%;
+            padding: 20px 0;
+        }
+    }
+
+    .nosotros_cta {
+        justify-content: center;
+
+        button {
+            letter-spacing: 5px;
+            width: 200px;
+            height: 60px;
+        }
+    }
+
+    .masaje_infantil {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+
+        img {
+            max-width: 300px;
+            border-radius: 20%;
+            padding: 20px 0;
+        }
+    }
+
+    .nosotros_cta {
+        justify-content: center;
+
+        button {
+            letter-spacing: 5px;
+            width: 200px;
+            height: 60px;
+        }
+
+    }
 }
