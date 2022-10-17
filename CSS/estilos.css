@@ -231,6 +231,7 @@ button {
 
 .nosotros {
   width: 80%;
+  min-height: 100vh;
   margin: 0 auto;
   background-color: #fff6f5;
   display: flex;
@@ -271,9 +272,6 @@ button {
   padding: 120px 0 20px;
   color: #898d8e;
 }
-.servicios .textos_auricuoterapia p {
-  font-size: 16px;
-}
 
 .auriculoterapia {
   margin: 0 auto;
@@ -297,7 +295,7 @@ button {
 }
 .textos_auriculoterapia p {
   padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .servicios {
@@ -333,7 +331,7 @@ button {
 }
 .textos_masoterapia p {
   padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .servicios {
@@ -387,7 +385,7 @@ button {
 }
 .textos_infantil p {
   padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .contacto {
